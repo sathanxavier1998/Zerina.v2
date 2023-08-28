@@ -1,4 +1,3 @@
-@TeamHMT
 import os
 import logging
 import random
