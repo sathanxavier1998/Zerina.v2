@@ -1,4 +1,3 @@
-https://t.me/
 # Kanged From @TroJanZheX
 import asyncio
 import re
