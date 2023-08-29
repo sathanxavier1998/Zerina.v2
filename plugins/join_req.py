@@ -2,7 +2,7 @@ from logging import getLogger
 from pyrogram import Client, filters, enums
 from pyrogram.types import ChatJoinRequest
 from database.join_reqs import JoinReqs
-from info import ADMINS, REQ_CHANNEL
+from info import ADMINS, REQST_CHANNEL
 
 db = JoinReqs
 logger = getLogger(__name__)
