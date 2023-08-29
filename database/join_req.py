@@ -1,5 +1,5 @@
 import motor.motor_asyncio
-from info import REQ_CHANNEL
+from info import REQST_CHANNEL
 
 class JoinReqs:
 
