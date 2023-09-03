@@ -41,7 +41,6 @@ REQST_CHANNEL = environ.get('REQST_CHANNEL_ID', '-1001961755638')
 REQST_CHANNEL = int(REQST_CHANNEL) if REQST_CHANNEL and id_pattern.search(REQST_CHANNEL) else False
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", False))
-JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ZerinaNOW:ZerinaNOW@cluster0.ux7gi1h.mongodb.net/?retryWrites=true&w=majority")
